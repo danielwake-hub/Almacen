@@ -25,7 +25,20 @@
             </div>
             <a href="widget.php" class="nav-item nav-link"><i class="fa fa-th me-2"></i>Widgets</a>
             <a href="form.php" class="nav-item nav-link"><i class="fa fa-keyboard me-2"></i>Forms</a>
-            <a href="table.php" class="nav-item nav-link"><i class="fa fa-table me-2"></i>Tables</a>
+            <div class="nav-item dropdown">
+                <a href="table.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-table me-2"></i>Categorías</a>
+                <div class="dropdown-menu bg-transparent border-0">
+                    <a href="ver_categorias.php" class="dropdown-item">Ver categoría</a>
+                    <a href="crear_categorias.php" class="dropdown-item">Crear Categoría</a>
+                </div>
+            </div>
+            <div class="nav-item dropdown">
+                <a href="table.php" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="fa fa-table me-2"></i>Materiales</a>
+                <div class="dropdown-menu bg-transparent border-0">
+                    <a href="ver_materiales.php" class="dropdown-item">Ver materiales</a>
+                    <a href="crear_materiales.php" class="dropdown-item">Registrar materiales</a>
+                </div>
+            </div>
             <a href="chart.php" class="nav-item nav-link"><i class="fa fa-chart-bar me-2"></i>Charts</a>
             <div class="nav-item dropdown">
                 <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown"><i class="far fa-file-alt me-2"></i>Pages</a>
